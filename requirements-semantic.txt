@@ -1,0 +1,5 @@
+-r requirements-project.txt
+
+# Optional. Use only with a model already saved locally and configured through
+# EVIDENCEAI_SENTENCE_MODEL; the application does not download models.
+sentence-transformers>=3.0

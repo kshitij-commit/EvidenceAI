@@ -1,0 +1,10 @@
+-r requirements.txt
+
+# Excel exports, PDF text extraction, and optional name matching for the
+# separate PAIMANA project-monitoring workspace.
+openpyxl>=3.1
+pymupdf>=1.24,<2
+rapidfuzz>=3.9
+fastapi>=0.115
+uvicorn>=0.30
+python-multipart>=0.0.9

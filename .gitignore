@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+
+# Jupyter Notebook cache
+.ipynb_checkpoints/
+
+# Locally imported PAIMANA exports and case data
+data/processed/project_monitoring.sqlite3
+data/processed/project_monitoring.sqlite3-*
+data/processed/project_sources/
+web/node_modules/
+web/dist/

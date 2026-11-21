@@ -1,0 +1,168 @@
+{
+  "input": "C:\\Users\\kshit\\Downloads\\EvidenceAI_Report_PreviewWord.docx",
+  "fonts_by_char_count": {},
+  "direct_run_formatting_runs": 426,
+  "direct_paragraph_formatting_paragraphs": 1413,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 1,
+      "text": "A Project Report",
+      "style": "Normal"
+    },
+    {
+      "para_index": 2,
+      "text": "on",
+      "style": "Normal"
+    },
+    {
+      "para_index": 4,
+      "text": "EVIDENCE-BASED INVESTIGATION & ANOMALY INTELLIGENCE ENGINE\u201d",
+      "style": "Normal"
+    },
+    {
+      "para_index": 8,
+      "text": "B.Tech. (CSE) AI/ML",
+      "style": "Normal"
+    },
+    {
+      "para_index": 9,
+      "text": "5th Semester",
+      "style": "Normal"
+    },
+    {
+      "para_index": 10,
+      "text": "Submitted by",
+      "style": "Normal"
+    },
+    {
+      "para_index": 14,
+      "text": "Under the Guidance of",
+      "style": "Normal"
+    },
+    {
+      "para_index": 15,
+      "text": "Mr. Anmol Dubey",
+      "style": "Normal"
+    },
+    {
+      "para_index": 16,
+      "text": "Department of Computer Science & Engineering",
+      "style": "Normal"
+    },
+    {
+      "para_index": 17,
+      "text": "Faculty of Engineering and Technology",
+      "style": "Normal"
+    },
+    {
+      "para_index": 18,
+      "text": "AKS University, Satna (M.P.)",
+      "style": "Normal"
+    },
+    {
+      "para_index": 20,
+      "text": "CERTIFICATE",
+      "style": "Normal"
+    },
+    {
+      "para_index": 27,
+      "text": "External Signature                              Guide \u2013 Mr. Anmol Dubey",
+      "style": "Normal"
+    },
+    {
+      "para_index": 28,
+      "text": "Head of Department",
+      "style": "Normal"
+    },
+    {
+      "para_index": 29,
+      "text": "Dr. Chandra Shekhar Gautam",
+      "style": "Normal"
+    },
+    {
+      "para_index": 32,
+      "text": "SELF DECLARATION",
+      "style": "Normal"
+    },
+    {
+      "para_index": 36,
+      "text": "Signature of Candidate",
+      "style": "Normal"
+    },
+    {
+      "para_index": 40,
+      "text": "ABSTRACT",
+      "style": "Normal"
+    },
+    {
+      "para_index": 50,
+      "text": "TABLE OF CONTENTS",
+      "style": "Normal"
+    },
+    {
+      "para_index": 55,
+      "text": "1.1 Background of the Project",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "A Project Report",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "text": "on",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "text": "\u201cEVIDENCEAI: ",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "text": "EVIDENCE-BASED INVESTIGATION & ANOMALY INTELLIGENCE ENGINE\u201d",
+        "style": "Normal"
+      },
+      {
+        "para_index": 5,
+        "text": "Submitted in partial fulfillment of the requirements",
+        "style": "Normal"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "A Project Report",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": "on",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "\u201cEVIDENCEAI: ",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "run_text": "EVIDENCE-BASED",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "run_text": " INVESTIGATION & ANOMALY INTELLIGENCE ENGINE\u201d",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

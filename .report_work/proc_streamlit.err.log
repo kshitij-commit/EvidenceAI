@@ -1,0 +1,226 @@
+2026-11-03 23:10:24.581 Uvicorn server started on 127.0.0.1:8501
+2026-11-03 23:11:05.988 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
+Stack (most recent call last):
+  File "C:\Python313\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 436, in _run_script_thread
+    self._run_script(request.rerun_data)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 949, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 924, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\app.py", line 375, in <module>
+    search = top_search.text_input("", key="record_search", placeholder="Search tenders, buyers, suppliers, or keywords…", label_visibility="collapsed")
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 725, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 727, in text_input
+    return self._text_input(
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 796, in _text_input
+    label = maybe_raise_label_warnings(label, label_visibility)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\lib\policies.py", line 169, in maybe_raise_label_warnings
+    _LOGGER.warning(
+2026-11-03 23:11:26.713 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
+Stack (most recent call last):
+  File "C:\Python313\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 436, in _run_script_thread
+    self._run_script(request.rerun_data)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 949, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 924, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\app.py", line 375, in <module>
+    search = top_search.text_input("", key="record_search", placeholder="Search tenders, buyers, suppliers, or keywords…", label_visibility="collapsed")
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 725, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 727, in text_input
+    return self._text_input(
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 796, in _text_input
+    label = maybe_raise_label_warnings(label, label_visibility)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\lib\policies.py", line 169, in maybe_raise_label_warnings
+    _LOGGER.warning(
+2026-11-03 23:11:49.454 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
+Stack (most recent call last):
+  File "C:\Python313\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 436, in _run_script_thread
+    self._run_script(request.rerun_data)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 949, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 924, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\app.py", line 375, in <module>
+    search = top_search.text_input("", key="record_search", placeholder="Search tenders, buyers, suppliers, or keywords…", label_visibility="collapsed")
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 725, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 727, in text_input
+    return self._text_input(
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 796, in _text_input
+    label = maybe_raise_label_warnings(label, label_visibility)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\lib\policies.py", line 169, in maybe_raise_label_warnings
+    _LOGGER.warning(
+2026-11-03 23:12:02.248 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
+Stack (most recent call last):
+  File "C:\Python313\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 436, in _run_script_thread
+    self._run_script(request.rerun_data)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 949, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 924, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\app.py", line 375, in <module>
+    search = top_search.text_input("", key="record_search", placeholder="Search tenders, buyers, suppliers, or keywords…", label_visibility="collapsed")
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 725, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 727, in text_input
+    return self._text_input(
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 796, in _text_input
+    label = maybe_raise_label_warnings(label, label_visibility)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\lib\policies.py", line 169, in maybe_raise_label_warnings
+    _LOGGER.warning(
+2026-11-03 23:12:12.863 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
+Stack (most recent call last):
+  File "C:\Python313\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 436, in _run_script_thread
+    self._run_script(request.rerun_data)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 949, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 924, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\app.py", line 375, in <module>
+    search = top_search.text_input("", key="record_search", placeholder="Search tenders, buyers, suppliers, or keywords…", label_visibility="collapsed")
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 725, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 727, in text_input
+    return self._text_input(
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 796, in _text_input
+    label = maybe_raise_label_warnings(label, label_visibility)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\lib\policies.py", line 169, in maybe_raise_label_warnings
+    _LOGGER.warning(
+2026-11-03 23:12:18.353 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
+Stack (most recent call last):
+  File "C:\Python313\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 436, in _run_script_thread
+    self._run_script(request.rerun_data)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 949, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 924, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\app.py", line 375, in <module>
+    search = top_search.text_input("", key="record_search", placeholder="Search tenders, buyers, suppliers, or keywords…", label_visibility="collapsed")
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 725, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 727, in text_input
+    return self._text_input(
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 796, in _text_input
+    label = maybe_raise_label_warnings(label, label_visibility)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\lib\policies.py", line 169, in maybe_raise_label_warnings
+    _LOGGER.warning(
+2026-11-03 23:12:24.239 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
+Stack (most recent call last):
+  File "C:\Python313\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 436, in _run_script_thread
+    self._run_script(request.rerun_data)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 949, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 924, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\app.py", line 375, in <module>
+    search = top_search.text_input("", key="record_search", placeholder="Search tenders, buyers, suppliers, or keywords…", label_visibility="collapsed")
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 725, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 727, in text_input
+    return self._text_input(
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 796, in _text_input
+    label = maybe_raise_label_warnings(label, label_visibility)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\lib\policies.py", line 169, in maybe_raise_label_warnings
+    _LOGGER.warning(
+2026-11-03 23:12:30.514 `label` got an empty value. This is discouraged for accessibility reasons and may be disallowed in the future by raising an exception. Please provide a non-empty label and hide it with label_visibility if needed.
+Stack (most recent call last):
+  File "C:\Python313\Lib\threading.py", line 1014, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\Python313\Lib\threading.py", line 1043, in _bootstrap_inner
+    self.run()
+  File "C:\Python313\Lib\threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 436, in _run_script_thread
+    self._run_script(request.rerun_data)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 949, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 924, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\app.py", line 375, in <module>
+    search = top_search.text_input("", key="record_search", placeholder="Search tenders, buyers, suppliers, or keywords…", label_visibility="collapsed")
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\runtime\metrics_util.py", line 725, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 727, in text_input
+    return self._text_input(
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\widgets\text_widgets.py", line 796, in _text_input
+    label = maybe_raise_label_warnings(label, label_visibility)
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\elements\lib\policies.py", line 169, in maybe_raise_label_warnings
+    _LOGGER.warning(
+2026-11-03 23:12:30.924 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\streamlit\dataframe_util.py", line 957, in convert_pandas_df_to_arrow_table
+    return pa.Table.from_pandas(df, preserve_index=preserve_index)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/table.pxi", line 4777, in pyarrow.lib.Table.from_pandas
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 658, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+              ~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 643, in convert_column
+    raise e
+  File "C:\Users\kshit\Desktop\05_document\5th semester notes\EvidenceAi\.venv\Lib\site-packages\pyarrow\pandas_compat.py", line 637, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+  File "pyarrow/array.pxi", line 414, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 97, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Linked rows with type object')
